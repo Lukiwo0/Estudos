@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Dias, horas, minutos, segundos</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <header><strong>Conversor de Tempo</strong></header>
+    <section>
+        <div >
+            <p>Observações:</p>
+            <ol style="font-size: 13px; padding-left: 10px; padding-bottom: 20px;">
+                <li>Esse é um site para estudo.</li>
+                <li>Para número quebrado como "1,2", use a vírgula, o ponto não irá funcionar.</li>
+                <li> Alterando o valor (números), clique em converter de novo, para mudar o resultado.</li>
+                <li>Estamos trabalhando para deixar isso automático. &#x1F609</li>
+            </ol>
+        </div>
+        <div>
+            <p>
+                Converta segundo(s): 
+                <input type="number" type='reset' name="seg" id="seg" min="0" autocomplete="off">
+                <input type="button" value="Converter" onclick="converter1()">
+            </p>
+            <p id="res1"></p>
+        </div>
+        <div>
+            <p>
+                Converta minuto(s): 
+                <input type="number" name="min" id="min" min="0" autocomplete="off">
+                <input type="button" value="Converter" onclick="converter2()">
+            </p>
+            <p id="res2"></p>
+        </div>
+        <div>
+            <p>
+                Converta hora(s): 
+                <input type="number" name="hora" id="hora" min="0" autocomplete="off">
+                <input type="button" value="Converter" onclick="converter3()">
+            </p>
+            <p id="res3"></p>
+        </div>
+        <div>
+            <p>
+                Converta dia(s): 
+                <input type="number" name="dia" id="dia" min="0" autocomplete="off">
+                <input type="button" value="Converter" onclick="converter4()">
+            </p>
+            <p id="res4"></p>
+        </div>
+    </section>
+</body>
+</html>

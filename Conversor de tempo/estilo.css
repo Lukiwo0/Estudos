@@ -1,0 +1,45 @@
+body {
+    background-image: url(imagem/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font: normal 17px Arial;
+    
+}
+
+header {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+section {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 550px;
+    margin: auto;
+    box-shadow: 3px 3px 10px black;
+}
+
+input[type=number] {
+    border-radius: 5px;
+    width: 130px;
+    margin-left: 5px;
+    box-shadow: 1px 4px 1px rgba(0, 0, 0, 0.404);
+}
+
+input[value="Converter"] {
+    background: rgb(199, 199, 199);
+    border-radius: 7px;
+    width: 100px;
+    font-weight: bold;
+    margin-left: 10px;
+    box-shadow: 1px 3px 1px black;
+
+}
+
+p#res1, p#res2, p#res3, p#res4 {
+    font-size: 15px;
+}
