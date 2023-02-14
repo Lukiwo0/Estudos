@@ -1,3 +1,6 @@
+    function github() {
+        window.open('https://github.com/Lukiwo0/Estudos')
+    }
     // Conversão para segundos
     function converter1() {
         var segundo = document.getElementById('seg') // Criei um var da input

@@ -11,8 +11,8 @@
 <body>
     <script src="script.js"></script>
     <header><strong>Conversor de Tempo</strong></header>
-    <section>
-        <div >
+    <section id="principal">
+        <div>
             <p>Observações:</p>
             <ol style="font-size: 13px; padding-left: 10px; padding-bottom: 20px;">
                 <li>Esse é um site para estudo.</li>
@@ -25,7 +25,7 @@
             <p>
                 Converta segundo(s): 
                 <input type="number" type='reset' name="seg" id="seg" min="0" autocomplete="off">
-                <input type="button" value="Converter" onclick="converter1()">
+                <input type="button" value="Converter" onclick="converter1()" class="button">
             </p>
             <p id="res1"></p>
         </div>
@@ -33,7 +33,7 @@
             <p>
                 Converta minuto(s): 
                 <input type="number" name="min" id="min" min="0" autocomplete="off">
-                <input type="button" value="Converter" onclick="converter2()">
+                <input type="button" value="Converter" onclick="converter2()" class="button">
             </p>
             <p id="res2"></p>
         </div>
@@ -41,7 +41,7 @@
             <p>
                 Converta hora(s): 
                 <input type="number" name="hora" id="hora" min="0" autocomplete="off">
-                <input type="button" value="Converter" onclick="converter3()">
+                <input type="button" value="Converter" onclick="converter3()" class="button">
             </p>
             <p id="res3"></p>
         </div>
@@ -49,10 +49,21 @@
             <p>
                 Converta dia(s): 
                 <input type="number" name="dia" id="dia" min="0" autocomplete="off">
-                <input type="button" value="Converter" onclick="converter4()">
+                <input type="button" value="Converter" onclick="converter4()" class="button">
             </p>
             <p id="res4"></p>
         </div>
     </section>
+    <div>
+        <section id="baixo" onclick="github()">
+            <footer>
+                <p id="git">
+                Código do Site:
+                </p>
+                <img src="imagem/github.png" alt="" id="github" >
+            </footer>  
+        </section>
+    </div>
+    
 </body>
 </html>

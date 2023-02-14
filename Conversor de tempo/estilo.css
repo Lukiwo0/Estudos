@@ -8,13 +8,14 @@ body {
 }
 
 header {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 20px;
     font-size: 30px;
+    text-shadow: 1px 5px 3px black;
+    padding: 20px;
 }
 
-section {
+section#principal {
     background: white;
     border-radius: 15px;
     padding: 15px;
@@ -36,10 +37,38 @@ input[value="Converter"] {
     width: 100px;
     font-weight: bold;
     margin-left: 10px;
-    box-shadow: 1px 3px 1px black;
-
+    box-shadow: 1px 3px 1px black; 
+    cursor: pointer;
+}
+.button:hover {
+    background-color: rgb(121, 121, 121);
+    transition: 0.5s;
+    opacity: 0.7;
 }
 
 p#res1, p#res2, p#res3, p#res4 {
     font-size: 15px;
+}
+
+section#baixo {
+    background: rgb(228, 228, 228);
+    border-radius: 15px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 40px;
+    width: 150px;
+    box-shadow: 3px 3px 10px black;
+}
+
+p#git {
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+img#github {
+    margin: auto;
+    display: block;
+    width: 50px;
+    cursor: pointer;
 }
