@@ -31,7 +31,7 @@ input[type=number] {
     box-shadow: 1px 4px 1px rgba(0, 0, 0, 0.404);
 }
 
-input[value="Converter"] {
+input[type="button"] {
     background: rgb(199, 199, 199);
     border-radius: 7px;
     width: 100px;
@@ -46,7 +46,7 @@ input[value="Converter"] {
     opacity: 0.7;
 }
 
-p#res1, p#res2, p#res3, p#res4 {
+p#res0, p#res1, p#res2, p#res3, p#res4, p#res5 {
     font-size: 15px;
 }
 

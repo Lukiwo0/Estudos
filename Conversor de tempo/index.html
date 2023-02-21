@@ -19,7 +19,16 @@
                 <li>Para número quebrado como "1,2", use a vírgula, o ponto não irá funcionar.</li>
                 <li> Alterando o valor (números), clique em converter de novo, para mudar o resultado.</li>
                 <li>Estamos trabalhando para deixar isso automático. &#x1F609</li>
+                <li>Valor muito grande, vai ser representado como "3.6e+15", que significa: 3,6 x 10^15 (3600000000000000).<br>E valor muito pequeno, vai ser representado como "3,6e-15", que significa: 3,6 x 10^-15 (0,0000000000000036). <br>Lembrando que os valores "3,6", "+15" ou "-15" são EXEMPLOS.</li>
             </ol>
+        </div>
+        <div>
+            <p>
+                Converta milissegundos(s): 
+                <input type="number" type='reset' name="mili" id="mili" min="0" autocomplete="off">
+                <input type="button" value="Converter" onclick="converter0()" class="button">
+            </p>
+            <p name="resulta" id="res0"></p>
         </div>
         <div>
             <p>
@@ -27,7 +36,7 @@
                 <input type="number" type='reset' name="seg" id="seg" min="0" autocomplete="off">
                 <input type="button" value="Converter" onclick="converter1()" class="button">
             </p>
-            <p id="res1"></p>
+            <p name="resulta" id="res1"></p>
         </div>
         <div>
             <p>
@@ -35,7 +44,7 @@
                 <input type="number" name="min" id="min" min="0" autocomplete="off">
                 <input type="button" value="Converter" onclick="converter2()" class="button">
             </p>
-            <p id="res2"></p>
+            <p name="resulta" id="res2"></p>
         </div>
         <div>
             <p>
@@ -43,7 +52,7 @@
                 <input type="number" name="hora" id="hora" min="0" autocomplete="off">
                 <input type="button" value="Converter" onclick="converter3()" class="button">
             </p>
-            <p id="res3"></p>
+            <p name="resulta" id="res3"></p>
         </div>
         <div>
             <p>
@@ -51,7 +60,18 @@
                 <input type="number" name="dia" id="dia" min="0" autocomplete="off">
                 <input type="button" value="Converter" onclick="converter4()" class="button">
             </p>
-            <p id="res4"></p>
+            <p name="resulta" id="res4"></p>
+        </div>
+        <div>
+            <p>
+                Converta Semana(s): 
+                <input type="number" name="sem" id="sem" min="0" autocomplete="off">
+                <input type="button" value="Converter" onclick="converter5()" class="button">
+            </p>
+            <p name="resulta" id="res5"></p>
+        </div>
+        <div>
+            <input type="button" value="Limpar tudo" onclick="converter6()" class="button">
         </div>
     </section>
     <div>
