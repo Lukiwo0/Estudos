@@ -1,0 +1,53 @@
+/*
+Instruções
+Proposta de Projeto - Jogo de Cálculos em C
+Objetivo do Projeto
+Desenvolver um jogo educacional de cálculo matemático em linguagem de
+programação C, utilizando conceitos de estruturas de dados, funções, aleatoriedade e manipulação de entradas. O sistema deve permitir que o jogador escolha o nível de dificuldade, resolva operações matemáticas (soma, subtração, multiplicação) e acumule pontos conforme acerta as respostas.
+Requisitos do Sistema
+
+2.1 Funcionalidades do Sistema
+Escolha de Dificuldade: O usuário deve poder selecionar entre diferentes níveis de dificuldade (1 a 4), que afetam o intervalo de valores numéricos usados nas operações.
+• Nível 1 (Fácil): Valores entre 0 e 10. 。
+Nível 2 (Médio): Valores entre 0 e 100. 。
+Nível 3 (Difícil): Valores entre 0 e 1000.
+。 Nível 4 (Insano): Valores entre 0 e 10000.
+Geração de Operações Aleatórias: O sistema deve gerar aleatoriamente uma operação de soma, subtração ou multiplicação para ser resolvida pelo jogador.
+Avaliação de Respostas: O sistema deve avaliar se a resposta dada pelo jogador está correta e, em caso de acerto, incrementar os pontos.
+Pontuação: O jogador acumula pontos a cada resposta correta.
+Reiniciar o Jogo: O jogador deve ter a opção de continuar jogando ou encerrar o jogo, exibindo a pontuação final.
+
+ 2.2 Regras de Negócio
+O jogador deve selecionar o nível de dificuldade no início do jogo.
+As operações são geradas aleatoriamente, podendo ser de soma, subtração ou multiplicação.
+O jogador deve inserir a resposta para a operação gerada e receber um feedback sobre a correção da resposta.
+O jogo deve continuar até que o jogador opte por encerrar.
+Ao final do jogo, a pontuação total deve ser exibida.
+
+Estrutura do Código
+O código deve ser estruturado em funções, para modularidade e melhor organização:
+• Função main(): Inicia o jogo e chama a função jogar().
+Função jogar(): Principal loop do jogo, responsável por gerar operações e avaliar as respostas.
+• Funções para Operações Matemáticas:
+。 somar(): Avalia a operação de soma.
+• diminuir(): Avalia a operação de subtração.
+multiplicar(): Avalia a operação de multiplicação.
+Função mostrarInfo(): Exibe detalhes sobre a operação gerada (opcional).
+
+Detalhamento Técnico
+4.1 Estruturas Utilizadas
+• Struct Calcular: Armazena as informações relacionadas à operação matemática, como os dois valores a serem operados, o tipo de operação e a dificuldade. typedef struct { int dificuldade; int valor1; int valor2; int operacao; int resultado; } Calcular;
+
+4.2 Funções
+jogar(): Gera uma nova operação matemática baseada na dificuldade
+escolhida pelo jogador, e avalia a resposta fornecida.
+somar(), diminuir(), multiplicar(): Funções que executam as operações matemáticas e comparam o resultado fornecido pelo jogador com o resultado correto.
+mostrarInfo(): (Opcional) Exibe informações detalhadas sobre a operação (dificuldade, valores, tipo de operação).
+4.3 Aleatoriedade
+• Função rand(): Utilizada para gerar valores aleatórios tanto para os números da operação quanto para o tipo de operação (soma, subtração ou
+multiplicação).
+• O número da operação é gerado entre 0 e 2, onde:
+■ 0 = soma
+■ 1 = subtração
+2 multiplicação
+*/
