@@ -4,7 +4,7 @@ Este repositório contém uma coleção de projetos que desenvolvi como parte do
 
 ## Projetos
 - **[Site Conversor de Tempo](https://github.com/Lukiwo0/Estudos/tree/main/Conversor%20de%20tempo)**: Um simples simples pra converter tempo.
-- **[Jogo de Cálculo](https://github.com/Lukiwo0/Estudos/tree/main/Jogo%20Calculo)**: Um jogo simples de cálculo feito em C. Originalmente criado em grupo durante uma atividade em sala de aula, com funcionalidades adicionais implementadas na versão solo.
+- **[Jogo de Cálculo](https://github.com/Lukiwo0/Estudos/tree/main/Jogo%20Calculo)**: Um jogo simples de cálculo feito em C.
 - **Outros Projetos**: Em breve, mais projetos serão adicionados conforme o progresso nos estudos.
 
 ## Objetivos
